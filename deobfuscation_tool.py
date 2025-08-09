@@ -105,7 +105,7 @@ def analyze_hex_patterns(decoded_text):
         
         print(f"  {i+1}. {pattern} -> {signed_value}")
 
-# 使用例
+# 暗号
 obfuscated_text = "N1AXpHiArjFE(nGCZFdUTrZiFexUbs$F%RFt@eFv(u(MBFZVJBSYFdVNGT)FimLpjjFswJD@oCC(@eMgEipnGZe0LarJbeZLsWCjPFFUNz)WFonvLkkFE)Wmg@FnzcyuPFkqcYlrFqg&GizFLc(IdFFQgWSVZFVXuPk$CIbI)N*EUXI&FT0eXTPKn"
 
 result = deobfuscate_password(obfuscated_text)
